@@ -1,0 +1,37 @@
+* {
+    font-size: 1em;
+}
+
+body {
+    background-color: gray;
+}
+
+button {
+    display: block;
+}
+
+#codeinput {
+    width: 70%;
+    height: 500px;
+    display: block;
+}
+
+#replaceButton,
+#copyButton,
+#submitCode {
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+#pastedcode {
+    display: none;
+}
+
+#collectedLinks {
+    color: white;
+}

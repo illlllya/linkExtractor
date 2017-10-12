@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Link Replacer</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+</head>
+
+<body>
+    <textarea id="codeinput" autofocus placeholder="Paste HTML"></textarea>
+    <button id="replaceButton">Replace All URLs with: ${clickthrough} </button>
+    <button id="copyButton" data-clipboard-action="cut">Grab Code</button>
+    <br>
+    <br>
+    <div id="collectedLinks"></div>
+    <div id="pastedcode"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/clipboard.js-master/dist/clipboard.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</body>
+
+</html>
